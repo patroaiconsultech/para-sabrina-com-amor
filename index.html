@@ -41,9 +41,13 @@
 
     html { scroll-behavior: smooth; }
 
+    .serif {
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
     body {
       margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       color: var(--text);
       background:
         radial-gradient(circle at top, #352631 0%, var(--bg) 55%);
@@ -85,6 +89,7 @@
     }
 
     h1 {
+      font-family: Georgia, "Times New Roman", serif;
       font-size: clamp(3rem, 9vw, 6.8rem);
       line-height: 0.95;
       margin: 0 0 24px;
@@ -139,6 +144,7 @@
     }
 
     h2 {
+      font-family: Georgia, "Times New Roman", serif;
       font-size: clamp(1.65rem, 4vw, 2.55rem);
       line-height: 1.12;
       margin: 0 0 18px;
@@ -147,6 +153,24 @@
     }
 
     p { margin: 0 0 18px; }
+
+    .inline-video {
+      width: 100%;
+      display: block;
+      border-radius: 24px;
+      border: 1px solid var(--line);
+      box-shadow: 0 18px 45px rgba(0,0,0,.25);
+      background: rgba(0,0,0,.28);
+      margin-top: 18px;
+    }
+
+    .final-actions {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+      margin-top: 24px;
+      font-family: Arial, sans-serif;
+    }
     p:last-child { margin-bottom: 0; }
 
     .quote {
@@ -221,8 +245,6 @@
         <p class="subtitle">Não é apenas uma carta. É um capítulo vivo de uma história que ainda está sendo escrita.</p>
         <div class="button-row">
           <a class="btn" href="#carta">Ler a carta</a>
-          <a class="btn" href="https://web-arquitech-com-amor-sa.up.railway.app/" target="_blank" rel="noopener">Acessar Arquitech</a>
-          <a class="btn" href="https://youtu.be/nlgchQ-lMJk?si=sOKOYtoMEAyu-J8_" target="_blank" rel="noopener">Ouvir oração</a>
         </div>
       </div>
     </div>
@@ -236,7 +258,7 @@
       <p>E este capítulo, Sabrina, é teu. Porque tu fizeste parte da minha história de uma forma que eu jamais poderia fingir que não existiu.</p>
     </section>
 
-    <section>
+<section>
       <h2>Eu ouvi</h2>
       <p class="quote">Eu só consegui ouvir teu áudio uma vez.</p>
       <p>Não porque eu não quisesse te escutar, mas porque eu escutei de verdade. E quando a gente escuta de verdade alguém que ama, algumas palavras não passam apenas pelo ouvido; elas atravessam o peito.</p>
@@ -249,18 +271,18 @@
 
     <section class="highlight">
       <h2>Meus arrependimentos</h2>
-      <p><strong>Eu também preciso reconhecer os meus arrependimentos.</strong></p>
-      <p><strong>Não de forma teatral, nem para parecer melhor do que sou, mas com verdade. Eu sei que errei em momentos importantes. Sei que falhei em atitudes, em escolhas, em constância, em maturidade e em algumas formas de conduzir a minha própria vida.</strong></p>
-      <p><strong>Há coisas que hoje eu faria diferente. Há palavras que eu teria dito de outro jeito. Há silêncios que talvez eu não deveria ter deixado crescer. Há atitudes que eu gostaria de poder corrigir não apenas com pedido de desculpas, mas com mudança real.</strong></p>
-      <p><strong>Eu não escrevo isso para me condenar para sempre. Escrevo porque hoje eu consigo olhar para mim com mais coragem. E reconhecer o erro, para mim, é parte do caminho de me tornar um homem melhor.</strong></p>
+      <p>Eu também preciso reconhecer os meus arrependimentos.</p>
+      <p>Não de forma teatral, nem para parecer melhor do que sou, mas com verdade. Eu sei que errei em momentos importantes. Sei que falhei em atitudes, em escolhas, em constância, em maturidade e em algumas formas de conduzir a minha própria vida.</p>
+      <p>Há coisas que hoje eu faria diferente. Há palavras que eu teria dito de outro jeito. Há silêncios que talvez eu não deveria ter deixado crescer. Há atitudes que eu gostaria de poder corrigir não apenas com pedido de desculpas, mas com mudança real.</p>
+      <p>Eu não escrevo isso para me condenar para sempre. Escrevo porque hoje eu consigo olhar para mim com mais coragem. E reconhecer o erro, para mim, é parte do caminho de me tornar um homem melhor.</p>
     </section>
 
     <section class="highlight">
       <h2>Minhas mudanças</h2>
-      <p><strong>Também existem batalhas internas minhas que talvez tu tenhas percebido melhor do que eu em alguns momentos.</strong></p>
-      <p><strong>Alguns padrões, alguns excessos, alguns vícios e algumas formas de fuga que eu venho tentando mudar aos poucos. Não é simples. Não se muda uma vida inteira de uma hora para outra. Mas eu estou enxergando mais, assumindo mais e entendendo que certas mudanças não dependem apenas de vontade: dependem de humildade, disciplina, fé e das pessoas certas ao redor.</strong></p>
-      <p><strong>Eu sei que ainda tenho muito a melhorar.</strong></p>
-      <p><strong>Mas também sei que eu posso melhorar. E com apoio certo, com verdade, com Deus e com responsabilidade, eu vou conseguir. Não porque quero parecer perfeito para alguém, mas porque eu preciso ser melhor para mim, para quem caminha comigo e para a vida que eu quero construir.</strong></p>
+      <p>Também existem batalhas internas minhas que talvez tu tenhas percebido melhor do que eu em alguns momentos.</p>
+      <p>Alguns padrões, alguns excessos, alguns vícios e algumas formas de fuga que eu venho tentando mudar aos poucos. Não é simples. Não se muda uma vida inteira de uma hora para outra. Mas eu estou enxergando mais, assumindo mais e entendendo que certas mudanças não dependem apenas de vontade: dependem de humildade, disciplina, fé e das pessoas certas ao redor.</p>
+      <p>Eu sei que ainda tenho muito a melhorar.</p>
+      <p>Mas também sei que eu posso melhorar. E com apoio certo, com verdade, com Deus e com responsabilidade, eu vou conseguir. Não porque quero parecer perfeito para alguém, mas porque eu preciso ser melhor para mim, para quem caminha comigo e para a vida que eu quero construir.</p>
     </section>
 
     <section>
@@ -270,10 +292,18 @@
       <p>Lembro do teu sorriso. Lembro dos nossos momentos leves. Lembro das conversas. Lembro dos planos. Lembro dos olhares. Lembro das pequenas coisas que talvez ninguém mais entenderia.</p>
       <p>E, para mim, isso teve valor. Muito valor.</p>
       <p>Talvez a dor tente gritar mais alto agora. Talvez o fim tente reorganizar as memórias de um jeito mais duro. Mas dentro de mim existe uma certeza: o que vivemos de bonito foi real, foi grande, e jamais será diminuído por mim.</p>
-      <p><strong>Quando eu digo que os nossos momentos felizes superaram qualquer momento ruim, eu penso também nas viagens que fizemos.</strong></p>
-      <p><strong>Talvez não tenham sido todas as viagens que sonhamos. Talvez não tenham sido todos os lugares que um dia imaginamos conhecer juntos. Mas as que vivemos foram maravilhosas para mim.</strong></p>
-      <p><strong>Cada caminho, cada chegada, cada riso, cada conversa, cada pequeno instante fora da rotina ficou guardado em mim de uma forma muito bonita. Eu não olho para essas lembranças com arrependimento. Eu olho com gratidão.</strong></p>
-      <p><strong>Porque, mesmo que a vida tenha nos trazido dores depois, houve momentos em que fomos felizes de verdade. E isso ninguém apaga.</strong></p>
+      <p>Quando eu digo que os nossos momentos felizes superaram qualquer momento ruim, eu penso também nas viagens que fizemos.</p>
+      <p>Talvez não tenham sido todas as viagens que sonhamos. Talvez não tenham sido todos os lugares que um dia imaginamos conhecer juntos. Mas as que vivemos foram maravilhosas para mim.</p>
+      <p>Cada caminho, cada chegada, cada riso, cada conversa, cada pequeno instante fora da rotina ficou guardado em mim de uma forma muito bonita. Eu não olho para essas lembranças com arrependimento. Eu olho com gratidão.</p>
+      <p>Porque, mesmo que a vida tenha nos trazido dores depois, houve momentos em que fomos felizes de verdade. E isso ninguém apaga.</p>
+    </section>
+
+    <section>
+      <h2>O que eu admiro em ti</h2>
+      <p>Também preciso te dizer algo que talvez seja uma das raízes mais verdadeiras de tudo o que senti por ti: eu te admiro demais.</p>
+      <p>Eu admiro a tua força, a tua capacidade de seguir mesmo cansada, o teu jeito de cuidar, a tua inteligência, a tua sensibilidade e essa forma muito tua de enfrentar a vida mesmo quando as coisas não estão fáceis.</p>
+      <p>Para mim, tu és uma pessoa fantástica. Um ser humano bom. E foi isso que acendeu o meu amor por ti: não apenas a beleza do que eu via por fora, mas a verdade do que eu fui enxergando por dentro.</p>
+      <p>Talvez eu nem sempre tenha sabido demonstrar essa admiração do jeito certo. Talvez, em alguns momentos, eu tenha falhado em te fazer sentir o quanto eu via valor em ti. Mas eu via. Eu vejo. E precisava deixar isso escrito.</p>
     </section>
 
     <section>
@@ -288,32 +318,32 @@
 
     <section class="highlight">
       <h2>Teus filhos</h2>
-      <p><strong>E eu também preciso falar dos teus filhos.</strong></p>
-      <p><strong>Eu gosto muito deles. De verdade.</strong></p>
-      <p><strong>A convivência com eles foi, para mim, um aprendizado. Aprendi a observar mais, a ter mais cuidado, a entender outros ritmos, outras necessidades, outras formas de amor. Talvez eu nem sempre tenha sabido demonstrar isso da melhor maneira, mas eles tocaram uma parte importante da minha vida.</strong></p>
-      <p><strong>Eu sei que existe uma certa reciprocidade, mesmo que eles talvez não falem. Crianças e jovens nem sempre expressam com palavras o que sentem, mas a gente percebe nos gestos, na presença, na abertura, nos pequenos sinais.</strong></p>
-      <p><strong>E se um dia eu falhei também com eles, por ausência, por imaturidade ou por não saber exatamente como ocupar aquele espaço, eu reconheço. Mas quero que tu saibas que nunca tratei essa parte da tua vida como detalhe. Eles fazem parte de ti. E, por isso, também tiveram importância para mim.</strong></p>
+      <p>E eu também preciso falar dos teus filhos.</p>
+      <p>Eu gosto muito deles. De verdade.</p>
+      <p>A convivência com eles foi, para mim, um aprendizado. Aprendi a observar mais, a ter mais cuidado, a entender outros ritmos, outras necessidades, outras formas de amor. Talvez eu nem sempre tenha sabido demonstrar isso da melhor maneira, mas eles tocaram uma parte importante da minha vida.</p>
+      <p>Eu sei que existe uma certa reciprocidade, mesmo que eles talvez não falem. Crianças e jovens nem sempre expressam com palavras o que sentem, mas a gente percebe nos gestos, na presença, na abertura, nos pequenos sinais.</p>
+      <p>E se um dia eu falhei também com eles, por ausência, por imaturidade ou por não saber exatamente como ocupar aquele espaço, eu reconheço. Mas quero que tu saibas que nunca tratei essa parte da tua vida como detalhe. Eles fazem parte de ti. E, por isso, também tiveram importância para mim.</p>
     </section>
 
     <section class="highlight">
       <h2>Família e confiança</h2>
-      <p><strong>Eu sei também que talvez a tua família tenha motivos para duvidar de mim.</strong></p>
-      <p><strong>Talvez algumas pessoas tenham olhado mais para os meus erros, minhas instabilidades e minhas dificuldades do que para aquilo que eu estava tentando construir.</strong></p>
-      <p><strong>Eu entendo. Confiança não se exige. Confiança se reconstrói.</strong></p>
-      <p><strong>E talvez essa seja uma das dores mais difíceis para mim: saber que, em alguns lugares, eu ainda sou visto pelo peso do que falhei, não pela verdade do que estou tentando me tornar.</strong></p>
-      <p><strong>Mas eu não posso obrigar ninguém a enxergar. O que eu posso fazer é continuar trabalhando, mudando, construindo e deixando que o tempo mostre aquilo que as palavras talvez não consigam provar agora.</strong></p>
+      <p>Eu sei também que talvez a tua família tenha motivos para duvidar de mim.</p>
+      <p>Talvez algumas pessoas tenham olhado mais para os meus erros, minhas instabilidades e minhas dificuldades do que para aquilo que eu estava tentando construir.</p>
+      <p>Eu entendo. Confiança não se exige. Confiança se reconstrói.</p>
+      <p>E talvez essa seja uma das dores mais difíceis para mim: saber que, em alguns lugares, eu ainda sou visto pelo peso do que falhei, não pela verdade do que estou tentando me tornar.</p>
+      <p>Mas eu não posso obrigar ninguém a enxergar. O que eu posso fazer é continuar trabalhando, mudando, construindo e deixando que o tempo mostre aquilo que as palavras talvez não consigam provar agora.</p>
     </section>
 
     <section class="highlight">
       <h2>As canções</h2>
-      <p><strong>Uma parte da nossa história também virou música.</strong></p>
-      <p><strong>Foram dezenas de canções compostas para ti, sempre de coração, sempre com sentimento, sempre com entrega verdadeira.</strong></p>
-      <p><strong>Tu foste minha musa inspiradora. Algumas músicas nasceram da saudade, outras da esperança, outras da dor, outras do amor que eu ainda tentava transformar em beleza.</strong></p>
-      <p><strong>Talvez um dia elas sejam usadas da melhor forma possível — por mim, por outras pessoas, em algum projeto ou em algum caminho que Deus ainda vai abrir.</strong></p>
-      <p><strong>Mas elas estão feitas. Estão registradas. Estão aqui.</strong></p>
-      <p><strong>E também são uma forma de dizer: foi real.</strong></p>
+      <p>Uma parte da nossa história também virou música.</p>
+      <p>Foram dezenas de canções compostas para ti, sempre de coração, sempre com sentimento, sempre com entrega verdadeira.</p>
+      <p>Tu foste minha musa inspiradora. Algumas músicas nasceram da saudade, outras da esperança, outras da dor, outras do amor que eu ainda tentava transformar em beleza.</p>
+      <p>Talvez um dia elas sejam usadas da melhor forma possível — por mim, por outras pessoas, em algum projeto ou em algum caminho que Deus ainda vai abrir.</p>
+      <p>Mas elas estão feitas. Estão registradas. Estão aqui.</p>
+      <p>E também são uma forma de dizer: foi real.</p>
       <div class="link-card">
-        <strong>Canções inspiradas em ti:</strong><br />
+        Canções inspiradas em ti:<br />
         <a href="https://suno.com/@daninavioficial" target="_blank" rel="noopener">https://suno.com/@daninavioficial</a>
       </div>
     </section>
@@ -339,20 +369,20 @@
       <p>Sou uma mente criativa que, depois de muito estudo, dor, fé, tentativa, erro e reconstrução, finalmente encontrou as ferramentas para colocar em prática aquilo que antes parecia impossível.</p>
       <p>Hoje eu consigo transformar ideia em estrutura. Promessa em entrega. Amor em construção. Dor em propósito. E sonho em algo real.</p>
       <p>Talvez esse seja um dos pontos mais importantes de tudo isso: eu não estou apenas imaginando um futuro. Eu estou criando esse futuro, passo a passo, com as ferramentas que Deus colocou no meu caminho e com a coragem que precisei encontrar dentro de mim.</p>
-      <p><strong>Talvez esta carta não seja apenas sobre te pedir que me entendas. Talvez seja sobre eu finalmente conseguir me enxergar inteiro: com amor, com falhas, com arrependimentos, com fé, com vícios que preciso vencer, com sonhos que ainda me movem e com uma vontade enorme de não desperdiçar a vida que Deus me deu.</strong></p>
+      <p>Talvez esta carta não seja apenas sobre te pedir que me entendas. Talvez seja sobre eu finalmente conseguir me enxergar inteiro: com amor, com falhas, com arrependimentos, com fé, com vícios que preciso vencer, com sonhos que ainda me movem e com uma vontade enorme de não desperdiçar a vida que Deus me deu.</p>
     </section>
 
     <section class="highlight">
       <h2>A fé e os caminhos que começaram a abrir</h2>
-      <p><strong>Também preciso reconhecer algo que nasceu e cresceu muito em mim durante tudo o que vivemos: a minha fé.</strong></p>
-      <p><strong>De alguma forma, o convívio contigo, as situações que atravessamos, as dores, as perguntas, os silêncios e a minha própria busca por Deus acenderam em mim uma centelha que hoje eu não consigo mais apagar.</strong></p>
-      <p><strong>Eu sinto que Deus me acolheu no meio da minha imperfeição. Não porque eu seja melhor do que ninguém, mas porque eu finalmente comecei a procurar com verdade, com arrependimento, com humildade e com vontade real de mudar.</strong></p>
-      <p><strong>E desde que essa fé se acendeu, eu comecei a perceber que algumas portas estão se abrindo. Pessoas certas estão surgindo. Conexões estão acontecendo. Conversas começaram a rodar. Algumas pessoas já falam sobre mim, querem me conhecer melhor, querem conversar comigo, querem entender o que estou construindo.</strong></p>
-      <p><strong>Isso já não é apenas uma promessa de futuro. Já começou. Ainda é início, ainda exige muito trabalho, ainda depende de constância, disciplina e responsabilidade. Mas já está andando.</strong></p>
-      <p><strong>Talvez muitas coisas que eu falei tenham parecido distantes demais em algum momento. Talvez algumas tenham acontecido fora do tempo que eu imaginava. Mas eu sempre senti que havia algo maior me conduzindo.</strong></p>
-      <p><strong>E desta vez eu senti com muita força que o mês do meu aniversário seria um mês de virada. Foi o mês em que assinei o contrato com a AMCHAM, e a partir dali muita coisa começou a mudar dentro e fora de mim.</strong></p>
-      <p><strong>Hoje eu começo a ser reconhecido de outra forma. As pessoas conversam comigo, se interessam, me escutam, percebem que eu sei do que estou falando e enxergam em mim alguém que está criando algo diferente.</strong></p>
-      <p><strong>Eu escrevo isso sem arrogância. Escrevo com gratidão. Porque eu sei o quanto caminhei no escuro até começar a ver esses sinais de luz.</strong></p>
+      <p>Também preciso reconhecer algo que nasceu e cresceu muito em mim durante tudo o que vivemos: a minha fé.</p>
+      <p>De alguma forma, o convívio contigo, as situações que atravessamos, as dores, as perguntas, os silêncios e a minha própria busca por Deus acenderam em mim uma centelha que hoje eu não consigo mais apagar.</p>
+      <p>Eu sinto que Deus me acolheu no meio da minha imperfeição. Não porque eu seja melhor do que ninguém, mas porque eu finalmente comecei a procurar com verdade, com arrependimento, com humildade e com vontade real de mudar.</p>
+      <p>E desde que essa fé se acendeu, eu comecei a perceber que algumas portas estão se abrindo. Pessoas certas estão surgindo. Conexões estão acontecendo. Conversas começaram a rodar. Algumas pessoas já falam sobre mim, querem me conhecer melhor, querem conversar comigo, querem entender o que estou construindo.</p>
+      <p>Isso já não é apenas uma promessa de futuro. Já começou. Ainda é início, ainda exige muito trabalho, ainda depende de constância, disciplina e responsabilidade. Mas já está andando.</p>
+      <p>Talvez muitas coisas que eu falei tenham parecido distantes demais em algum momento. Talvez algumas tenham acontecido fora do tempo que eu imaginava. Mas eu sempre senti que havia algo maior me conduzindo.</p>
+      <p>E desta vez eu senti com muita força que o mês do meu aniversário seria um mês de virada. Foi o mês em que assinei o contrato com a AMCHAM, e a partir dali muita coisa começou a mudar dentro e fora de mim.</p>
+      <p>Hoje eu começo a ser reconhecido de outra forma. As pessoas conversam comigo, se interessam, me escutam, percebem que eu sei do que estou falando e enxergam em mim alguém que está criando algo diferente.</p>
+      <p>Eu escrevo isso sem arrogância. Escrevo com gratidão. Porque eu sei o quanto caminhei no escuro até começar a ver esses sinais de luz.</p>
     </section>
 
     <section>
@@ -371,7 +401,7 @@
 
     <section class="highlight">
       <h2>Arquitech</h2>
-      <p>Conforme eu havia planejado e prometido, eu criei a <strong>Arquitech</strong>, a primeira vertical da <strong>PatroAI</strong>.</p>
+      <p>Conforme eu havia planejado e prometido, eu criei a Arquitech, a primeira vertical da PatroAI.</p>
       <p>E agora ela está pronta.</p>
       <p>Eu criei isso pensando em ti.</p>
       <p>Criei porque eu conheço a tua luta. Porque eu sei o quanto tu te esgotas física e mentalmente para dar conta de tudo o que fazes, de todas as responsabilidades, de todas as entregas e de todos os dias em que precisas ser forte mesmo estando cansada por dentro.</p>
@@ -383,10 +413,10 @@
       <p>Eu não te entrego isso para te impressionar. Te entrego porque fazia parte daquilo que eu disse que faria.</p>
       <p class="quote">E eu fiz.</p>
       <div class="link-card">
-        <strong>Arquitech — primeira vertical da PatroAI</strong><br />
+        Arquitech — primeira vertical da PatroAI<br />
         <a href="https://web-arquitech-com-amor-sa.up.railway.app/" target="_blank" rel="noopener">https://web-arquitech-com-amor-sa.up.railway.app/</a>
         <div class="divider"></div>
-        <strong>Código de acesso:</strong> <code>ARQUITECH777</code>
+        Código de acesso: <code>ARQUITECH777</code>
       </div>
       <p>Eu gostaria muito que ela pudesse ser útil para ti. Não apenas como ferramenta de uso, mas como possibilidade. Como porta. Como algo que talvez, um dia, possa gerar valor, caminhos, trabalho, renda, criação ou até uma nova forma de enxergar o que é possível construir com tecnologia, fé e intenção.</p>
     </section>
@@ -406,13 +436,13 @@
 
     <section class="highlight">
       <h2>Sete dias e sete noites</h2>
-      <p><strong>Levei sete dias e sete noites para construir esta entrega para ti.</strong></p>
-      <p><strong>E quando digo esta entrega, não falo apenas desta carta. Falo também da Arquitech, da página, das músicas, dos pensamentos, das memórias, das noites em claro, das revisões, das orações silenciosas e de tudo aquilo que tentei organizar da forma mais bonita e verdadeira possível.</strong></p>
-      <p><strong>Foram sete dias e sete noites tentando transformar sentimento em palavra, promessa em realidade e amor em algo concreto.</strong></p>
-      <p><strong>E, nesses mesmos sete dias, eu pedi a Deus que iluminasse os nossos caminhos. Que mostrasse a melhor direção. Que colocasse paz onde ainda existe dor, clareza onde ainda existe dúvida, e verdade onde talvez ainda exista silêncio.</strong></p>
-      <p><strong>Eu não sei qual será a tua reação. Não sei se esta carta vai tocar teu coração, se vai te afastar ainda mais, se vai te fazer pensar, se vai te emocionar ou se simplesmente será recebida em silêncio.</strong></p>
-      <p><strong>Mas eu sei que fiz a minha parte com verdade.</strong></p>
-      <p><strong>Se tiver que ser fim, que seja com verdade. Se ainda houver caminho, que Deus nos mostre com clareza.</strong></p>
+      <p>Levei sete dias e sete noites para construir esta entrega para ti.</p>
+      <p>E quando digo esta entrega, não falo apenas desta carta. Falo também da Arquitech, da página, das músicas, dos pensamentos, das memórias, das noites em claro, das revisões, das orações silenciosas e de tudo aquilo que tentei organizar da forma mais bonita e verdadeira possível.</p>
+      <p>Foram sete dias e sete noites tentando transformar sentimento em palavra, promessa em realidade e amor em algo concreto.</p>
+      <p>E, nesses mesmos sete dias, eu pedi a Deus que iluminasse os nossos caminhos. Que mostrasse a melhor direção. Que colocasse paz onde ainda existe dor, clareza onde ainda existe dúvida, e verdade onde talvez ainda exista silêncio.</p>
+      <p>Eu não sei qual será a tua reação. Não sei se esta carta vai tocar teu coração, se vai te afastar ainda mais, se vai te fazer pensar, se vai te emocionar ou se simplesmente será recebida em silêncio.</p>
+      <p>Mas eu sei que fiz a minha parte com verdade.</p>
+      <p>Se tiver que ser fim, que seja com verdade. Se ainda houver caminho, que Deus nos mostre com clareza.</p>
     </section>
 
     <section>
@@ -427,21 +457,33 @@
       <p>Escuta quando sentir vontade. Recebe apenas o que fizer bem.</p>
       <p>E que Deus conduza aquilo que eu já não consigo conduzir com minhas próprias mãos.</p>
       <div class="link-card">
-        <strong>Oração escolhida para ti:</strong><br />
+        Oração escolhida para ti:<br />
         <a href="https://youtu.be/nlgchQ-lMJk?si=sOKOYtoMEAyu-J8_" target="_blank" rel="noopener">https://youtu.be/nlgchQ-lMJk?si=sOKOYtoMEAyu-J8_</a>
       </div>
     </section>
 
     <section class="highlight">
       <h2>Os próximos sete dias</h2>
-      <p><strong>Depois de te entregar tudo isso, eu vou silenciar.</strong></p>
-      <p><strong>Vou entregar a Deus os próximos sete dias, pedindo que Ele ilumine os nossos caminhos, que fale contigo da forma que só Ele sabe falar, e que traga clareza ao teu coração, caso ainda exista alguma dúvida dentro de ti.</strong></p>
-      <p><strong>Não quero te pressionar. Não quero te arrancar uma resposta. Não quero que tu digas nada que não venha da tua verdade.</strong></p>
-      <p><strong>Mas, dentro de mim, eu também preciso de um tempo para encerrar essa espera com respeito por mim mesmo.</strong></p>
-      <p><strong>Então eu entrego esses sete dias a Deus.</strong></p>
-      <p><strong>Se nesse tempo o teu coração sentir que ainda existe algo a ser dito, eu estarei disposto a te ouvir com calma, com presença e com respeito.</strong></p>
-      <p><strong>Se o silêncio permanecer, eu vou entender como parte da resposta que a vida está me dando. Vou aceitar aquilo que Deus permitir, recolher o que ainda doer, e seguir a minha vida com a consciência de que fiz a minha parte com verdade.</strong></p>
-      <p><strong>A minha oração é simples: se ainda houver amor, que Deus mostre o caminho. Se não houver mais, que Ele me dê força para aceitar. E que, em qualquer direção, a verdade venha com paz.</strong></p>
+      <p>Depois de te entregar tudo isso, eu vou silenciar.</p>
+      <p>Vou entregar a Deus os próximos sete dias, pedindo que Ele ilumine os nossos caminhos, que fale contigo da forma que só Ele sabe falar, e que traga clareza ao teu coração, caso ainda exista alguma dúvida dentro de ti.</p>
+      <p>Não quero te pressionar. Não quero te arrancar uma resposta. Não quero que tu digas nada que não venha da tua verdade.</p>
+      <p>Mas, dentro de mim, eu também preciso de um tempo para encerrar essa espera com respeito por mim mesmo.</p>
+      <p>Então eu entrego esses sete dias a Deus.</p>
+      <p>Se nesse tempo o teu coração sentir que ainda existe algo a ser dito, eu estarei disposto a te ouvir com calma, com presença e com respeito.</p>
+      <p>Se o silêncio permanecer, eu vou entender como parte da resposta que a vida está me dando. Vou aceitar aquilo que Deus permitir, recolher o que ainda doer, e seguir a minha vida com a consciência de que fiz a minha parte com verdade.</p>
+      <p>A minha oração é simples: se ainda houver amor, que Deus mostre o caminho. Se não houver mais, que Ele me dê força para aceitar. E que, em qualquer direção, a verdade venha com paz.</p>
+    </section>
+
+    <section>
+      <h2>Bênçãos finais</h2>
+      <p class="quote">Que Deus te cubra com Suas asas, te guarde sob a Sua proteção e te lembre que, mesmo nos dias difíceis, existe refúgio para quem confia nEle.</p>
+      <p class="small">Salmo 91:4</p>
+      <div class="divider"></div>
+      <p>Que o Senhor seja teu Pastor, para que nada essencial te falte.</p>
+      <p>Que Ele te conduza a lugares de descanso, renove tua alma e te guie por caminhos de justiça.</p>
+      <p>Que, mesmo nos vales mais escuros, tu não caminhes tomada pelo medo, porque Deus permanece contigo.</p>
+      <p>Que a bondade e a misericórdia te acompanhem todos os dias da tua vida, e que teu coração encontre morada na presença do Senhor.</p>
+      <p class="small">Salmo 23</p>
     </section>
 
     <section>
@@ -453,7 +495,20 @@
       <p>E essa verdade é simples:</p>
       <p>Eu te amei de verdade.<br />Eu tentei de verdade.<br />Eu estou construindo de verdade.</p>
       <p>E sigo entregando a Deus aquilo que eu já não posso controlar.</p>
-      <p class="signature">Com amor,<br /><strong>Daniel</strong></p>
+      <div class="divider"></div>
+      <h2>Um vídeo sobre nós</h2>
+      <p>Ao final, deixo também uma memória em movimento. Um vídeo para lembrar que a nossa história teve vida, presença, caminho e verdade.</p>
+      <video class="inline-video" controls playsinline preload="metadata" poster="capa-video.jpg">
+        <source src="video-nos.mp4" type="video/mp4" />
+        Teu navegador não conseguiu carregar o vídeo.
+      </video>
+      <p class="small">Arquivo esperado no GitHub: <code>video-nos.mp4</code>. Imagem de capa: <code>capa-video.jpg</code>.</p>
+      <div class="final-actions">
+        <a class="btn" href="https://web-arquitech-com-amor-sa.up.railway.app/" target="_blank" rel="noopener">Acessar Arquitech</a>
+        <a class="btn" href="https://suno.com/@daninavioficial" target="_blank" rel="noopener">Ouvir as canções</a>
+        <a class="btn" href="https://youtu.be/nlgchQ-lMJk?si=sOKOYtoMEAyu-J8_" target="_blank" rel="noopener">Ouvir oração</a>
+      </div>
+      <p class="signature">Com amor,<br />Daniel</p>
     </section>
   </main>
 
